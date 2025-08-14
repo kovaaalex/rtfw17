@@ -1,5 +1,5 @@
 import styles from './Main.module.css';
-import FormButton from "../../components/FormButton/FormButton";
+import Button from "../../components/Button/Button";
 import { useNavigate } from "react-router";
 import { FORM__ROUTE } from "../../constants/routes";
 const Main = () => {
@@ -12,7 +12,7 @@ const Main = () => {
             <h1>Welcome to the Main Page!!!!!</h1>
             <div className={styles.formContainer}>
                 <h4>Click this button</h4>
-                <FormButton onClick={handleNavigate}/>
+                <Button onClick={handleNavigate} buttonContent='FORM'/>
             </div>
         </div>
     )

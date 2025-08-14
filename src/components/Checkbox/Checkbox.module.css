@@ -1,0 +1,11 @@
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #646cff;
+  cursor: pointer;
+}
+
+.checkbox:focus {
+  outline: 2px solid #646cff;
+  outline-offset: 2px;
+}

@@ -1,0 +1,13 @@
+.field {
+    margin-bottom: 15px;
+}
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input {
+    margin-left: 10px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

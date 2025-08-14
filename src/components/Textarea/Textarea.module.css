@@ -1,0 +1,9 @@
+.textarea{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.textarea:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}

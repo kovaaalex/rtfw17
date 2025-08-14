@@ -8,6 +8,7 @@ function App() {
         <Routes>
           <Route path={MAIN__ROUTE} element={<Main/>}></Route>
           <Route path={FORM__ROUTE} element={<FormPage/>}></Route>
+          <Route path="*" element={<Main/>}></Route>
         </Routes>
       </Router>
   );
